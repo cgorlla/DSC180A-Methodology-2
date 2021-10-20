@@ -41,4 +41,4 @@ jobs:
           -u "${DOCKERHUB_USERNAME}" --password-stdin
 
       - name: Push to Dockerhub
-        run: docker push "${IMAGE_NAME}"
+        run: docker push cgorlla/dsc180a-methodology-2:init
